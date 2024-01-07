@@ -135,16 +135,12 @@
     letter-spacing: 7.04px;
 }
 
-.my-banner-text p {
-    padding-left: 126px;
+.my-third .my-banner-text p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 18px;
     /* 166.667% */
-    border-right: 39px;
+    padding-left: 126px;
 }
 
 .my-fourth {
@@ -209,18 +205,16 @@
     width: 82.5%;
     max-width: 1320px;
     margin: 50px auto 100px;
-    height: 482px;
 }
 
-.my-fifth .pp {
+.fifth-heading .para {
     color: #F00;
     font-family: Inter;
     font-size: 18px;
     margin-bottom: 16px;
 }
 
-.my-fifth h3 {
-    color: #070211;
+.fifth-heading h3 {
     font-family: Merriweather;
     font-size: 38px;
     font-style: normal;
@@ -229,7 +223,7 @@
     text-transform: capitalize;
 }
 
-.my-banner-text p {
+.fifth-heading p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -238,26 +232,83 @@
     line-height: 32px;
     /* 160% */
     margin-bottom: 48px;
+
 }
 
-.my-fifth img {
-    margin-top: 36px;
-    margin-right: 24px;
+.fifth-one {
+    display: flex;
+    gap: 5px;
 }
 
-.my-fifth img:hover {
+.fifth-two {
+    display: flex;
+    gap: 5px;
+}
+
+.image-section img {
+    margin-bottom: 20px;
+    width: 410px;
+}
+
+.image-section img:hover {
     transform: scale(1.1);
     opacity: 0.8;
     border: 3px solid rgb(0, 64, 255);
     border-radius: 16px;
 }
 
-.fifth-one {
-    display: flex;
-    margin-bottom: 24px;
+.my-sixth {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px auto 100px;
 }
 
-.fifth-two {
-    display: flex;
-    margin-bottom: 120px;
+.sixth-banner {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.sixth-banner-text {
+    padding-top: 80px;
+}
+
+.sixth-banner-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sixth-banner-text p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.my-sixth button {
+    margin-bottom: 80px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    border: 0;
+    padding: 20px 56px;
+}
+
+.my-sixth input {
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    padding: 25px 477px 25px 30px;
+    border: 0;
+    outline: 0;
 }
