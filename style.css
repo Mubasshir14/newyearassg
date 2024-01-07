@@ -20,12 +20,12 @@
     padding-top: 177px;
     margin-bottom: 16px;
     color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .banner-text h1 {
@@ -37,4 +37,47 @@ line-height: normal;
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
+}
+
+.text {
+    padding: 0 608px;
+
+}
+
+.discount {
+    padding: 0 399px 0;
+}
+
+.text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contain {
+    margin-bottom: 0;
 }
