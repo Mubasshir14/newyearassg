@@ -280,15 +280,18 @@
     font-weight: 700;
     margin-bottom: 24px;
 }
-.sixth-banner-text p{
+
+.sixth-banner-text p {
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
+
 .my-sixth button {
     margin-bottom: 80px;
     border-radius: 0px 50px 50px 0px;
@@ -311,4 +314,83 @@ line-height: 32px; /* 160% */
     padding: 25px 477px 25px 30px;
     border: 0;
     outline: 0;
+}
+
+.foot {
+    background: #070211;
+}
+
+.foot-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.icon {
+    text-align: center;
+    margin: 48px 24px 48px 0;
+}
+
+.foot .a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot .b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftupone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    margin-top: 120px;
+}
+
+.rightupone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    margin-top: 120px;
+}
+
+.leftdownone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.rightdownone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    opacity: 0.5;
+}
+
+hr:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    border: 1px solid rgb(0, 64, 255);
 }
