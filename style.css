@@ -320,20 +320,37 @@
     text-transform: capitalize;
     border: 0;
     padding: 18px 56px 19px;
+    height: 72px;
 }
-.my-sixth button:hover{
+
+.my-sixth button:hover {
     background: rgb(242, 80, 11);
     transform: scale(1.1);
     opacity: 0.8;
 }
+
+.my-sixth form {
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    /* margin-bottom: 80px; */
+    margin: 48px 336px 0;
+    border-radius: 50px 0 0 50px;
+    padding-bottom: 80px;
+    height: 72px;
+}
+
 .my-sixth input {
+    flex-grow: 2;
+    border: none;
     border-radius: 50px 0 0 50px;
     background: #FFF;
     padding: 24px 300px 20px 30px;
     border: 0;
     outline: 0;
 }
-.my-sixth input:hover{
+
+.my-sixth input:hover {
     padding-left: 50px;
     color: #f0700e;
     border: 1px solid blue;
@@ -511,7 +528,12 @@ hr:hover {
     align-items: center;
     text-align: center;
 }
-
+.inp-btn input{
+    margin: 0;
+}
+.inp-btn button{
+    margin: 0;
+}
 .two-bonus-what {
     color: #070211;
     font-family: Inter;
