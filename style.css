@@ -58,7 +58,10 @@
     font-weight: 700;
     line-height: normal;
 }
-
+.text h1:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
 .text p {
     color: #F00;
     text-align: center;
@@ -121,7 +124,12 @@
 .my-banner-text {
     max-width: 575px;
 }
-
+.my-third button:hover{
+    color: rgb(242, 80, 11);
+    transform: scale(1.1);
+    opacity: 0.8;
+    
+}
 .my-banner-text h3 {
     padding: 126px 0 0 126px;
     margin: 0 0 26px 0;
@@ -187,7 +195,11 @@
     background: #F00;
     border-left: 576px;
 }
-
+.my-fourth button:hover{
+    background: rgb(242, 80, 11);
+    transform: scale(1.1);
+    opacity: 0.8;
+}
 .my-fourth .btn {
     color: #FFF;
     text-align: center;
@@ -249,6 +261,7 @@
 .image-section img {
     margin-bottom: 20px;
     width: 410px;
+    cursor: pointer;
 }
 
 .image-section img:hover {
@@ -308,7 +321,11 @@
     border: 0;
     padding: 18px 56px 19px;
 }
-
+.my-sixth button:hover{
+    background: rgb(242, 80, 11);
+    transform: scale(1.1);
+    opacity: 0.8;
+}
 .my-sixth input {
     border-radius: 50px 0 0 50px;
     background: #FFF;
@@ -316,7 +333,11 @@
     border: 0;
     outline: 0;
 }
-
+.my-sixth input:hover{
+    padding-left: 50px;
+    color: #f0700e;
+    border: 1px solid blue;
+}
 .foot {
     background: #070211;
 }
@@ -462,7 +483,29 @@ hr:hover {
     line-height: 32px;
     border-bottom: 40px;
 }
-
+.face{
+    margin-right: 16px;
+}
+.foot .icon .face:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.foot .icon .insta:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.foot .icon .twitter:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.foot .icon .linkedin:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.foot .rightdownone:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
 .bonus-two {
     margin-top: 120px;
     align-items: center;
@@ -489,7 +532,10 @@ hr:hover {
     margin-bottom: 28px;
     margin-bottom: 16px;
 }
-
+.bonus-two-container h2:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
 .bonus-two-sit {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
