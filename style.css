@@ -305,13 +305,13 @@
     line-height: normal;
     text-transform: capitalize;
     border: 0;
-    padding: 20px 56px;
+    padding: 18px 56px;
 }
 
 .my-sixth input {
     border-radius: 50px 0 0 50px;
     background: #FFF;
-    padding: 25px 477px 25px 30px;
+    padding: 25px 300px 25px 30px;
     border: 0;
     outline: 0;
 }
