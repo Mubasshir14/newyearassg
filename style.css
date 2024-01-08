@@ -212,6 +212,7 @@
     font-family: Inter;
     font-size: 18px;
     margin-bottom: 16px;
+    margin-top: 120px;
 }
 
 .fifth-heading h3 {
@@ -460,4 +461,79 @@ hr:hover {
     font-weight: 400;
     line-height: 32px;
     border-bottom: 40px;
+}
+
+.bonus-two {
+    margin-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+
+.two-bonus-what {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.bonus-two-container h2 span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+}
+
+.bonus-two-container h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    margin-bottom: 28px;
+    margin-bottom: 16px;
+}
+
+.bonus-two-sit {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+    /* 160% */
+}
+
+.bonus-three {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.bonus-three-girl {
+    text-align: right;
+    position: relative;
+}
+
+.bonus-three-girl img {
+    vertical-align: bottom;
+}
+
+.discount-image {
+    position: absolute;
+    right: 286px;
+    bottom: 60px;
+}
+
+.bonus-three-main-img {
+    position: relative;
+}
+
+.bonus-three-main-img .red {
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    width: 100%;
+}
+
+.surprise-img {
+    position: absolute;
+    bottom: 0px;
 }
