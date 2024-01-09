@@ -94,6 +94,7 @@
     padding-left: 158px;
     font-family: Inter;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .my-third {
@@ -194,6 +195,7 @@
     border-radius: 8px;
     background: #F00;
     border-left: 576px;
+    cursor: pointer;
 }
 .my-fourth button:hover{
     background: rgb(242, 80, 11);
@@ -321,6 +323,7 @@
     border: 0;
     padding: 18px 56px 19px;
     height: 72px;
+    cursor: pointer;
 }
 
 .my-sixth button:hover {
@@ -348,6 +351,7 @@
     padding: 24px 300px 20px 30px;
     border: 0;
     outline: 0;
+    cursor: pointer;
 }
 
 .my-sixth input:hover {
@@ -421,6 +425,7 @@
     line-height: normal;
     margin-bottom: 120px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 hr {
